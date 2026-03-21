@@ -6,8 +6,7 @@ export default function Index() {
       style={styles.container}
     >
       <Text style={styles.content}>Edit app/index.tsx to edit this screen.</Text>
-      <Text style={styles.content1}>Hello Tony stark</Text>
-      <Link href={"/about"}>Visit this screen</Link>
+      <Text style={styles.content1}>Hello Tony stark</Text>    
     </View>
   );
 }
@@ -16,7 +15,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    flexDirection: 'row',
     gap: 20
   },
   content: {
