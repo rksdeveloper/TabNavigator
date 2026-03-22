@@ -5,7 +5,7 @@ export default function Index() {
     <View
       style={styles.container}
     >
-      <Text style={styles.content}>Edit app/index.tsx to edit this screen.</Text>
+      <Text style={styles.content}>Welcome To Mobile App Development</Text>
       <Text style={styles.content1}>Hello Tony stark</Text>    
     </View>
   );
